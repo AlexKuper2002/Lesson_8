@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "nav header header"
+        "nav article ads";
+    display: grid;
+    font-size: 50px;
+    gap: 50px;
+}
+
+.header {
+    grid-area: header;
+    background-color: blue;
+    height: 100px;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: rebeccapurple;
+    height: 100vh;
+}
+
+.article {
+    grid-area: article;
+    background-color: rgb(43, 220, 226);
+    height: 90vh;
+}
+
+.ads {
+    grid-area: ads;
+    background-color: brown;
+    height: 90vh;
+}
